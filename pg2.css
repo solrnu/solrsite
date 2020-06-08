@@ -1,0 +1,107 @@
+body {
+   margin: 0;
+}
+
+/*-----------------------------------*/
+a {
+  color: #e0827b;
+  text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+
+ a.selected {
+		color: #A74949;
+	}
+
+a:hover {
+	color: #A74949;
+
+}
+
+#timeline {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    background: url(http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif) 3px top repeat-y;
+}
+
+#dates {
+    width: 35%;
+    padding: 0px;
+    border: solid 1px #000;
+    padding-top: 20px;
+}
+
+#dates li {
+	font-family: 'Nunito Sans', sans-serif;
+    list-style: none;
+	line-height: 1.6em;
+	padding-left: 30px;
+    background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
+    margin-bottom: 15px;
+}
+#dates .selected {
+font-size: 27px;
+}
+
+#issues {
+    scroll-behavior: smooth;
+    list-style: none;
+    width: 65%;
+    border: solid 1px #000;
+    height: calc(100vh -  400px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+#issues li h2 {
+	color: #6C2A2A;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+#issues li p {
+  margin-top: 15px;
+  color: #A74949;
+  font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 35px;
+}
+
+#issues li img {
+    max-width: 80%;
+    max-height: 200px;
+}
+#issues li {
+    /* border: solid 1px #000; */
+    background: white;
+    width: 100%;
+    padding: 0px;
+    min-height: 50vh;
+    text-align: center;
+    /* padding-top: 60px;
+    padding-left: 50px; */
+}
+
+
+@media (max-width:1000px ) {
+
+	#dates {
+		display: none;
+	}
+
+	#issues {
+		height: auto;
+		width: 100%;
+	}
+}
