@@ -22,7 +22,7 @@ body {
    grid-template-areas:
       "a b "
       "c c "
-      "d d " ;
+      "d d ";
    min-height: 100vh;
    background-color: #f9bfbb;
 }
@@ -185,8 +185,8 @@ body {
     padding: 5px;
     padding-bottom: 0px;
   }
-
 }
+
 
 @media (max-width: 995px) {
   .header {
