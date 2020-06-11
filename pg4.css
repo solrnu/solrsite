@@ -12,16 +12,13 @@ body * {
   text-align: left;
   padding-right: 5px;
 
-  /* border-style: solid;
-  border-color: white; */
 }
 
 .content h2 {
   font-family: 'Nunito Sans', sans-serif;
 	font-size: 35px;
   text-align: center;
-  /* color: #6C2A2A; */
-  /* padding-left: 20px; */
+
 }
 
 .socials a:link, .email a:link {
@@ -75,7 +72,6 @@ body * {
 
 
 /*media queries*/
-
 @media (max-width: 1530px) {
   .header {
     font-size: 45px;
@@ -161,7 +157,6 @@ body * {
   }
   .navi {
     margin-top: -15px;
-    /* margin-bottom: 15px; */
     font-size: 18px;
 
   }

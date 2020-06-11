@@ -213,7 +213,6 @@ body {
   }
   .navi {
     margin-top: -15px;
-    /* margin-bottom: 15px; */
     font-size: 18px;
 
   }
@@ -265,8 +264,6 @@ body {
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px; */
-    /* align-items: center; */
-    /* justify-content: center; */
   }
   .values,.aims {
     width: auto;

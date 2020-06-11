@@ -19,20 +19,20 @@ body {
 	color: #A74949;
 }
 
+#issues a, #issues a:visited {
+  color: #6C2A2A;
+}
 
 #timeline {
     margin-left: 20px;
-    /* margin-right: 20px; */
     display: flex;
     flex-direction: row;
-    background: url(http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif) 3px top repeat-y;
+    background: url(https://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif) 3px top repeat-y;
 }
 
 #dates {
     width: 13%;
     padding: 0px;
-    /* border: solid 1px #000; */
-    /* padding-top: 20px; */
 }
 
 #dates li {
@@ -41,7 +41,7 @@ body {
   list-style: none;
 	line-height: 1.5em;
 	padding-left: 16px;
-  background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
+  background: url('https://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -50,14 +50,12 @@ body {
     scroll-behavior: smooth;
     list-style: none;
     width: calc(100% - 13%);
-    /* border: solid 3px blue; */
     height: calc(100vh -  380px);
     overflow-y: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0px;
-    /* padding: 25px; */
 
 }
 #issues > li {
@@ -104,7 +102,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: -30px;
-  /* padding-right: 10px; */
 }
 
 /*------------------------------*/
@@ -203,15 +200,11 @@ body {
 }
 
 @media (max-width: 634px) {
-  /* body * {
-     width: 100%;
-  } */
   .header {
     font-size: 25px;
   }
   #issues li .pics {
     display: none;
-    /* padding-right: 10px; */
   }
 
   #issues li {
